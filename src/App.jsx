@@ -1,9 +1,12 @@
 import React from 'react';
+import Navbar from './components/Navbar';
+import Main from './pages/Main';
 
 function App() {
   return (
     <div>
-      <h1 className='text-lg'>Hello</h1>
+      <Navbar />
+      <Main />
     </div>
   )
 }
