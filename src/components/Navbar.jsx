@@ -2,12 +2,12 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <header>
+    <header className='flex flex-row justify-between p-6'>
       <div className="logo">
         <img src='#' alt='Not Supported' />
       </div>
       <nav>
-        <ul>
+        <ul className='flex flex-row space-x-8'>
           <li><a href='#home'>Home</a></li>
           <li><a href='#contact'>Contact</a></li>
           <li><a href='#blogs'>Blogs</a></li>
