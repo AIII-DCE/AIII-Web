@@ -1,9 +1,10 @@
 import React from 'react';
+import IntroPage from '../components/IntroPage';
 
 const Main = () => {
   return (
-    <div className='block p-6 overflow-y-scroll bg-white dark:bg-black'>
-        
+    <div className='block bg-white'>
+        <IntroPage />
     </div>
   )
 }
