@@ -31,7 +31,7 @@ const Footer = () => {
             </div>
             <div style={{ backgroundImage: `url("src/images/banner.png")` }} className="py-1 rounded-md w-1/2 bg-cover self-center bg-left my-8" >
             </div>
-            <div className="flex gap-8 self-center mt-8 mb-24" >
+            <div className="flex gap-8 self-center mt-8 mb-24 flex-wrap justify-center px-4" >
                 {
                     socialLinks.map(({ img, link }) => (
                         <div>
@@ -42,7 +42,7 @@ const Footer = () => {
                     ))
                 }
             </div>
-            <div className="self-center my-2" >
+            <div className="self-center my-2 px-2 text-center" >
                 <span className="font-bold" >COPYRIGHT @ 2023 AIII Developers.</span>
             </div>
         </section>

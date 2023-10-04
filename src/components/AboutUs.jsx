@@ -6,7 +6,7 @@ const AboutUs = () => {
             <div className="relative p-10 rounded-lg mx-12 overflow-hidden">
                 
                 <h1 className="text-3xl font-bold mb-4 text-center">About Us</h1>
-                <div className="flex items-center justify-center mb-4">
+                <div className="flex md:flex-row flex-col gap-8 md:gap-0 items-center justify-center mb-4">
                     
                     <div className="mr-4 text-center">
                         <p className="text-gray-700 mb-2">
@@ -17,7 +17,7 @@ const AboutUs = () => {
                     
                     <img
                         src="your-image-url.jpg" alt="About Us"
-                        className="w-80 h-80 rounded-xl shadow-md hover:shadow-lg transition duration-300 mb-4 items-center justify-center"/>
+                        className="w-80 h-80 rounded-xl shadow-md hover:shadow-lg transition duration-300 mb-4 items-center justify-center flex-shrink-0"/>
                     
                     <div className="ml-4 text-center">
                         <p className="text-gray-700 mb-2">
