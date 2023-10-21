@@ -1,25 +1,27 @@
+import p1 from "../assets/images/vision.png";
+
 const OurVisionSection = () => {
 
     const cards = [
         {
             title: "Purpose",
             description: "Our purpose: Igniting curiosity, fostering collaboration, and driving innovation in the world of AI, one idea, one project, one breakthrough at a time.",
-            img: "src/assets/images/vision.png"
+            img: p1
         },
         {
             title: "Purpose",
             description: "Our purpose: Igniting curiosity, fostering collaboration, and driving innovation in the world of AI, one idea, one project, one breakthrough at a time.",
-            img: "src/assets/images/vision.png"
+            img: p1
         },
         {
             title: "Purpose",
             description: "Our purpose: Igniting curiosity, fostering collaboration, and driving innovation in the world of AI, one idea, one project, one breakthrough at a time.",
-            img: "src/assets/images/vision.png"
+            img: p1
         },
         {
             title: "Purpose",
             description: "Our purpose: Igniting curiosity, fostering collaboration, and driving innovation in the world of AI, one idea, one project, one breakthrough at a time.",
-            img: "src/assets/images/vision.png"
+            img: p1
         },
     ]
 

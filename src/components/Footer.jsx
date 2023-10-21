@@ -1,24 +1,31 @@
+import BgImg from "../assets/images/banner.png";
+import InstaImg from "../assets/images/socials/instagram.png";
+import FacebookImg from "../assets/images/socials/facebook.png";
+import GithubImg from "../assets/images/socials/github.png";
+import LinkedinImg from "../assets/images/socials/linkedin.png";
+import TwitterImg from "../assets/images/socials/twitter.png";
+
 const Footer = () => {
 
     const socialLinks = [
         {
-            img: "src/assets/images/socials/instagram.png",
+            img: InstaImg,
             link: "#"
         },
         {
-            img: "src/assets/images/socials/facebook.png",
+            img: FacebookImg,
             link: "#"
         },
         {
-            img: "src/assets/images/socials/github.png",
+            img: GithubImg,
             link: "#"
         },
         {
-            img: "src/assets/images/socials/linkedin.png",
+            img: LinkedinImg,
             link: "#"
         },
         {
-            img: "src/assets/images/socials/twitter.png",
+            img: TwitterImg,
             link: "#"
         },
     ]
@@ -29,7 +36,7 @@ const Footer = () => {
                 <h2 className="text-2xl font-bold uppercase my-4">Connect with us</h2>
                 <span className="w-1/2 border self-center " />
             </div>
-            <div style={{ backgroundImage: `url("src/assets/images/banner.png")` }} className="py-1 rounded-md w-1/2 bg-cover self-center bg-left my-8" >
+            <div style={{ backgroundImage: `url("${BgImg}")` }} className="py-1 rounded-md w-1/2 bg-cover self-center bg-left my-8" >
             </div>
             <div className="flex gap-8 self-center mt-8 mb-24 flex-wrap justify-center px-4" >
                 {
