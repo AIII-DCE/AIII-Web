@@ -2,23 +2,23 @@ const Footer = () => {
 
     const socialLinks = [
         {
-            img: "src/images/socials/instagram.png",
+            img: "src/assets/images/socials/instagram.png",
             link: "#"
         },
         {
-            img: "src/images/socials/facebook.png",
+            img: "src/assets/images/socials/facebook.png",
             link: "#"
         },
         {
-            img: "src/images/socials/github.png",
+            img: "src/assets/images/socials/github.png",
             link: "#"
         },
         {
-            img: "src/images/socials/linkedin.png",
+            img: "src/assets/images/socials/linkedin.png",
             link: "#"
         },
         {
-            img: "src/images/socials/twitter.png",
+            img: "src/assets/images/socials/twitter.png",
             link: "#"
         },
     ]
@@ -29,7 +29,7 @@ const Footer = () => {
                 <h2 className="text-2xl font-bold uppercase my-4">Connect with us</h2>
                 <span className="w-1/2 border self-center " />
             </div>
-            <div style={{ backgroundImage: `url("src/images/banner.png")` }} className="py-1 rounded-md w-1/2 bg-cover self-center bg-left my-8" >
+            <div style={{ backgroundImage: `url("src/assets/images/banner.png")` }} className="py-1 rounded-md w-1/2 bg-cover self-center bg-left my-8" >
             </div>
             <div className="flex gap-8 self-center mt-8 mb-24 flex-wrap justify-center px-4" >
                 {

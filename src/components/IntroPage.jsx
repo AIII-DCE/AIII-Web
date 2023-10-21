@@ -1,6 +1,6 @@
 import React from 'react';
-import bg1 from '../images/bg.jpg';
-import logo from '../images/logo.png'
+import bg1 from '../assets/images/bg.jpg';
+import logo from '../assets/images/logo.png'
 
 const IntroPage = () => {
   return (

@@ -4,22 +4,22 @@ const OurVisionSection = () => {
         {
             title: "Purpose",
             description: "Our purpose: Igniting curiosity, fostering collaboration, and driving innovation in the world of AI, one idea, one project, one breakthrough at a time.",
-            img: "src/images/vision.png"
+            img: "src/assets/images/vision.png"
         },
         {
             title: "Purpose",
             description: "Our purpose: Igniting curiosity, fostering collaboration, and driving innovation in the world of AI, one idea, one project, one breakthrough at a time.",
-            img: "src/images/vision.png"
+            img: "src/assets/images/vision.png"
         },
         {
             title: "Purpose",
             description: "Our purpose: Igniting curiosity, fostering collaboration, and driving innovation in the world of AI, one idea, one project, one breakthrough at a time.",
-            img: "src/images/vision.png"
+            img: "src/assets/images/vision.png"
         },
         {
             title: "Purpose",
             description: "Our purpose: Igniting curiosity, fostering collaboration, and driving innovation in the world of AI, one idea, one project, one breakthrough at a time.",
-            img: "src/images/vision.png"
+            img: "src/assets/images/vision.png"
         },
     ]
 
